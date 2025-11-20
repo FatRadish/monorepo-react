@@ -1,5 +1,6 @@
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { useAppStore } from '../store/index.ts'
+import { ThemeToggle, ThemeSwitch, ThemeSelector } from '@/components/ThemeToggle.tsx';
 
 export default function MainLayout() {
   const location = useLocation()
@@ -24,6 +25,7 @@ export default function MainLayout() {
             <h1 className="text-xl font-bold text-blue-600">AutoFetch</h1>
           </div>
           <div className="flex items-center gap-4">
+            <ThemeSwitch></ThemeSwitch>
             <button className="btn p-2 hover:bg-gray-100 rounded">🔔</button>
             <button className="btn p-2 hover:bg-gray-100 rounded">👤</button>
           </div>

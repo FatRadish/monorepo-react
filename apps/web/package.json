@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.10",
+    "axios": "^1.13.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6",
@@ -18,6 +20,7 @@
   "devDependencies": {
     "@auto-fetch/eslint-config": "workspace:*",
     "@auto-fetch/typescript-config": "workspace:*",
+    "@tanstack/react-query-devtools": "^5.90.2",
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
